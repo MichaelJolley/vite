@@ -5062,6 +5062,11 @@ defu@^4.0.1:
   resolved "https://registry.yarnpkg.com/defu/-/defu-4.0.1.tgz#9d7d7a48f9295f08285d153dcff174c89b9bcb22"
   integrity sha512-lC+G0KvvWRbisQa50+iFelm3/eMmwo4IlBmfASOVlw9MZpHHyQeVsZxc5j23+TQy5ydgEoTVSrWl7ptou1kzJQ==
 
+defu@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-5.0.0.tgz#5768f0d402a555bfc4c267246b20f82ce8b5a10b"
+  integrity sha512-VHg73EDeRXlu7oYWRmmrNp/nl7QkdXUxkQQKig0Zk8daNmm84AbGoC8Be6/VVLJEKxn12hR0UBmz8O+xQiAPKQ==
+
 delayed-stream@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
@@ -5417,10 +5422,10 @@ es-to-primitive@^1.2.1:
     is-date-object "^1.0.1"
     is-symbol "^1.0.2"
 
-esbuild@^0.11.20:
-  version "0.11.20"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.20.tgz#7cefa1aee8b372c184e42457885f7ce5d3e62a1e"
-  integrity sha512-QOZrVpN/Yz74xfat0H6euSgn3RnwLevY1mJTEXneukz1ln9qB+ieaerRMzSeETpz/UJWsBMzRVR/andBht5WKw==
+esbuild@^0.11.23:
+  version "0.11.23"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.11.23.tgz#c42534f632e165120671d64db67883634333b4b8"
+  integrity sha512-iaiZZ9vUF5wJV8ob1tl+5aJTrwDczlvGP0JoMmnpC2B0ppiMCu8n8gmy5ZTGl5bcG081XBVn+U+jP+mPFm5T5Q==
 
 esbuild@^0.11.6:
   version "0.11.12"
@@ -10922,10 +10927,10 @@ rollup@^2.35.1, rollup@^2.38.5:
   optionalDependencies:
     fsevents "~2.3.1"
 
-rollup@^2.47.0:
-  version "2.47.0"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.47.0.tgz#9d958aeb2c0f6a383cacc0401dff02b6e252664d"
-  integrity sha512-rqBjgq9hQfW0vRmz+0S062ORRNJXvwRpzxhFXORvar/maZqY6za3rgQ/p1Glg+j1hnc1GtYyQCPiAei95uTElg==
+rollup@^2.48.0:
+  version "2.48.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.48.0.tgz#fceb01ed771f991f29f7bd2ff7838146e55acb74"
+  integrity sha512-wl9ZSSSsi5579oscSDYSzGn092tCS076YB+TQrzsGuSfYyJeep8eEWj0eaRjuC5McuMNmcnR8icBqiE/FWNB1A==
   optionalDependencies:
     fsevents "~2.3.1"
 
@@ -11240,10 +11245,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-siroc@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/siroc/-/siroc-0.10.0.tgz#38c763c9b56d905a9805e24fa6211e84a5064878"
-  integrity sha512-/q0wNwCbEEi4Y2MgWqXX/bVi4Im8QWfYtriWBMexWKuZFhsLFNTjlWZsf9qNEGej7OHYQ4UgxZ6XZeG2x7xaKw==
+siroc@^0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/siroc/-/siroc-0.10.1.tgz#9a075fc818b855ad01041cda6ed3c0ef4f6e74a4"
+  integrity sha512-VwOfUV7VodBQWfaSa3E25gk1B4jG8cHDkHNuELUZnpblUqq2wOf6U2pToHiaTrqukyLz05/knMwXliwy6dvv7Q==
   dependencies:
     "@rollup/plugin-alias" "^3.1.2"
     "@rollup/plugin-commonjs" "^19.0.0"
@@ -11253,14 +11258,14 @@ siroc@^0.10.0:
     cac "^6.7.3"
     chalk "^4.1.1"
     consola "^2.15.3"
-    defu "^4.0.1"
-    esbuild "^0.11.20"
+    defu "^5.0.0"
+    esbuild "^0.11.23"
     execa "^5.0.0"
     fs-extra "^10.0.0"
     glob "^7.1.7"
     jiti "^1.9.2"
     mkdist "^0.2.1"
-    rollup "^2.47.0"
+    rollup "^2.48.0"
     rollup-plugin-dts "^3.0.1"
     rollup-plugin-esbuild "4.2.3"
     sort-package-json "^1.50.0"
@@ -12218,6 +12223,11 @@ ufo@^0.7.2, ufo@^0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.4.tgz#06e971738bea098b95056755ba006a6b73a63f97"
   integrity sha512-qFCjO4/IAaejZ6QKVBdM7FZkjhd8zQmBmE6i2bcSwBRrctPVtKXFojJa2flaqNUd7YWQoCFwd44MpOt1g94ekQ==
+
+ufo@^0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.5.tgz#5d5b2174747c0072edd30501994c8ac4ad2e77ea"
+  integrity sha512-FGG+EgguC1oz5dTE1JptPWCyj6Z9mYpwvZY8PTu9Vh/Aoy+Mj9cpeQ3gg4kyEMDbMrH+lTYiw7bomG58B8X7Kg==
 
 uglify-js@^3.1.4, uglify-js@^3.5.1:
   version "3.13.4"
